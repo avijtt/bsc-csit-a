@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&family=Roboto:ital,wght@0,100;0,300;0,400;1,400&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.wrapper{
+    width: 85%;
+}
+.clear{
+    clear: both;
+}
+header{
+    position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+    background: white;
+}
+.header1{
+    float: left;
+    width: 30%;
+}
+.header1 img{
+    display: inline-block;
+}
+.header2{
+    float: left;
+    width: 50%;
+}
+.header2 a{
+    color: #5f1e10;
+    display: inline-block;
+    padding: 25px 15px 10px 15px ;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+.header2 a:hover{
+    /* text-decoration: underline; */
+    border-bottom: 1px solid #5f1e10 ;
+}
+.header3{
+    float: right;
+    width: 20%;
+}
+.header3 a{
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 15px ;
+    font-size: 20px;
+}
+.header3 a:hover{
+    color: steelblue;
+}
+#banner{
+    background: #956c63;
+}
+#banner img{
+    display: block;
+}
+#about{
+    background: #c49f71;
+    padding: 30px 0;
+}
+#about h2{
+    color: #5f1e10;
+    font-size: 34px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.about_boxes{
+    display: flex;
+    width: 100%;
+    margin: 10px 0;
+}
+.about_box{
+    width: 50%;
+}
+.about_box img{
+    width: 100%;
+}
+.about_box p{
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    font-style: italic;
+}
+#product{
+    margin: 20px 0;
+}
+#product h2{
+    color: #5f1e10;
+    font-size: 34px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.product_boxes{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.product_box{
+    width: 48%;
+    position: relative;
+}
+.product_box img{
+    width: 100%;
+    display: block;
+    height: 400px;
+}
+.info{
+    position: absolute;
+    background: black;
+    padding: 10px;
+    top: 50%;
+    left: 30%;
+    opacity: 0.8;
+}
+.info h3{
+    color: white;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.info p{
+    color: white;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.price{
+    background:red;
+    display: inline-block;
+    padding: 5px;
+    color: white;
+    margin-top: 5px;
+}
+footer{
+    background: #5f1e10;
+    padding: 40px;
+}
+.boxes{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.box{
+    width: 40%;
+}
+.box h3{
+    color: white;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding-bottom: 20px;
+}
+.box label{
+    display: block;
+    color: white;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding: 5px 0;
+}
+.box input,.box textarea{
+    padding: 5px;
+    width: 100%;
+}
+.box input[type=submit]{
+    margin: 10px 0;
+    background:black;
+    border: none;
+    padding: 10px 0;
+    color: white;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.box p{
+    color: white;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
